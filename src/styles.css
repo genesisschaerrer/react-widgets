@@ -1,0 +1,88 @@
+body {
+  background-color: #a59b9e;
+}
+
+.containerDiv {
+  padding: 0.5em;
+}
+
+.clock {
+  padding: 1.8em;
+}
+
+.divText {
+  margin-top: 0.3em;
+}
+
+.App {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  color: #5f656b;
+  background-color: #eee;
+  border: 1px solid #efefef;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5), 0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.5), 0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.header {
+  margin: 20px 0 35px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 130px;
+  letter-spacing: 4px;
+  color: #eee;
+  text-align: center;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 44.5%;
+  background: #c3daf6;
+  bottom: 4px;
+  z-index: -1;
+}
+
+button,
+.btn {
+  margin: 20px 8px 13px 3px;
+  padding: 10px 22px;
+  border-radius: 2.5em;
+  color: #f69d95;
+  border: 1px solid #f69d95;
+  background-color: transparent;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+button:hover,
+.btn:hover {
+  background: #f69d95;
+  color: #eee;
+}
+
+.inputText {
+  height: 30px;
+  border: solid 1px #f69d95;
+  margin-right: 10px;
+}
+
+.inputText:focus {
+  outline: solid 0.5px #f69d95;
+  /* border:  solid 1px #f69d95; */
+}
+
+.border {
+  width: 20%;
+  margin: 10px auto;
+}
